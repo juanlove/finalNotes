@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <!-- For ID, just put your name in between the com and example -->
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "com.JuanUrena.example"
+        versionCode = "10" 
+        version     = "1.0.0" >
+
+    <!-- versionCode is optional and Android only -->
+    
+    <!-- Name of your app -->
+    <name>Guitar Life</name>
+
+    <!-- Description of your App -->
+    <description>
+        App for IAD3
+    </description>
+
+    <!-- Author of the app ie, you) -->
+    <author href="https://build.phonegap.com" email="juan.a.urena@gmail..com">
+        juan love
+    </author>
+
+    <!-- Your plugin code -->
+    <gap:plugin name="nl.x-services.plugins.socialsharing" /> <!-- Social Sharing -->
+
+   <icon src="icon.png" platform="android" width="180" height="180" />
+
+</widget>
